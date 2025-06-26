@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - HEXALAB</title>
+  <link rel="stylesheet" href="static/css/styleindex.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    .equipo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .miembro {
+      padding: 20px;
+    }
+    .miembro img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+    .miembro h3 {
+      margin: 10px 0 5px;
+    }
+    .miembro p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html#inicio">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="clientes.html">Clientes</a>
+    <a href="index.html#proyectos">Proyectos</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="index.html#contacto">Contacto</a>
+  </nav>
+
+  <header class="fondo-claro">
+    <div class="contenedor">
+      <h1>Nosotros</h1>
+      <p class="texto">Conocé al equipo detrás de HEXALAB y cómo unimos ingeniería, tecnología y diseño para potenciar ideas.</p>
+    </div>
+  </header>
+
+  <section class="fondo-oscuro">
+    <div class="contenedor">
+      <h2>Nuestro equipo</h2>
+      <div class="equipo">
+        <div class="miembro">
+          <img src="static/images/ingeniero.jpg" alt="Ingeniero">
+          <h3>Benitez Marcos Amado</h3>
+          <p>Ingeniero Electrónico especializado en automatización y sistemas embebidos.</p>
+        </div>
+        <div class="miembro">
+          <img src="static/images/tecnico.jpg" alt="Técnico">
+          <h3>Benitez Ignacio Matias</h3>
+          <p>Técnica en electrónica y desarrolladora de soluciones en hardware industrial.</p>
+        </div>
+        <div class="miembro">
+          <img src="static/images/disenador.jpg" alt="Diseñador Gráfico">
+          <h3>Gabriel De los Santos</h3>
+          <p>Diseñador gráfico con foco en identidad visual, UI/UX y comunicación digital.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 HEXALAB - Todos los derechos reservados
+  </footer>
+</body>
+</html>
