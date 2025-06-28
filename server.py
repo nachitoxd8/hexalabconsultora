@@ -30,6 +30,9 @@ def sobre():
 def nosotros():
     return render_template('nosotros.html')
 
+@app.route('/proyectos.html')
+def proyectos():
+    return render_template('proyectos.html')
 if __name__ == '__main__':
     import os
     port = int(os.environ.get("PORT", 5000))
